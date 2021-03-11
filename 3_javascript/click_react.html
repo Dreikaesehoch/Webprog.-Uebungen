@@ -1,0 +1,41 @@
+<html>
+<head>
+
+</head>
+<meta charset="utf-8">
+
+<body>
+    <p id="text">Hier könnte Ihre Werbung stehen.</p>
+    <button id="mybutton">Formular abschicken</button>
+
+    <p id="js">Javascript ist...</p>
+    <button id="jsbutton"; style="background-color: blueviolet;">....</button>
+
+    <p id="drittertext">Alle Wege führen nach...</p>
+    <p id="viertertext"></p>
+    <button id="buttondrei">hier das Ergebnis</button>
+
+    <script>
+        document.getElementById("mybutton").onclick= 
+        function(){
+            document.getElementById("text").innerHTML="<h2>Das Formular wurde erfolgreich versandt.</h2>";
+        }
+
+        document.getElementById("jsbutton").onclick= 
+        function(){
+            document.getElementById("js").innerHTML="...sehr einfach zu erlernen.";
+        }
+        document.getElementById("buttondrei").onclick= 
+        function(){
+            document.getElementById("drittertext").innerHTML= 
+            document.getElementById("drittertext").innerHTML+ 
+            " Rom";
+        }
+
+    </script>
+
+</body>
+
+
+
+</html>
